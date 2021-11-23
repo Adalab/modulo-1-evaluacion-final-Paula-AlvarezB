@@ -4,6 +4,9 @@
   margin-right: 15px;
   margin-bottom: 45px;
   text-transform: capitalize;
+  @media (min-width: 768px) {
+    margin: 30px 39px 60px 39px;
+  }
 }
 
 .sectiontopsmall {

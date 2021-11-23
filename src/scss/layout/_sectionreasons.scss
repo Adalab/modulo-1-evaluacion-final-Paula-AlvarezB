@@ -15,13 +15,48 @@
   font-weight: bold;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /*grid-template-rows: 20% 60% 20%;*/
 }
 .reason {
   text-align: center;
   width: 50%;
   grid-column: 2/4;
   margin-bottom: 45px;
+  @media (min-width: 768px) {
+    grid-column: 1/4;
+    width: 100%;
+  }
+}
+.reasona {
+  background-color: palevioletred;
+  @media (min-width: 768px) {
+    grid-column: 1/2;
+    padding-left: 35.7px;
+  }
+  @media (min-width: 1200px) {
+    padding-left: 81.2px;
+  }
+}
+.reasonb {
+  background-color: powderblue;
+  @media (min-width: 768px) {
+    grid-column: 2/3;
+    padding-left: 27.7px;
+  }
+  @media (min-width: 1200px) {
+    padding-left: 26.2px;
+  }
+}
+.reasonc {
+  background-color: plum;
+  @media (min-width: 768px) {
+    grid-column: 3/4;
+    padding-left: 27.7px;
+    padding-right: 40px;
+  }
+  @media (min-width: 1200px) {
+    padding-left: 26.2px;
+    padding-right: 85px;
+  }
 }
 .reasonstext {
   font-family: "Roboto", serif;
