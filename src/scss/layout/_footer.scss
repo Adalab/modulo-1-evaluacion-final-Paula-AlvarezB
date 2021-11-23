@@ -4,8 +4,19 @@
   text-decoration: none;
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-family: "Roboto", sans-serif;
   text-align: center;
+}
+
+.whitecircle2 {
+  background-color: $color-white;
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-20px);
 }
 
 .footerlinks {

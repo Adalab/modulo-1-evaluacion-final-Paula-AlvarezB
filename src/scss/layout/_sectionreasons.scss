@@ -1,0 +1,45 @@
+.threereasons {
+  font-family: "Roboto Slab", serif;
+  background-color: #eff9ff;
+}
+.titlethree {
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 30px;
+  margin-bottom: 45px;
+}
+
+.gridreasons {
+  font-size: 18px;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*grid-template-rows: 20% 60% 20%;*/
+}
+.reason {
+  text-align: center;
+  width: 50%;
+  grid-column: 2/4;
+  margin-bottom: 45px;
+}
+.reasonstext {
+  font-family: "Roboto", serif;
+  font-weight: normal;
+}
+/* grid-row: 1/4;*/
+
+.morereasons {
+  width: 50%;
+  grid-column: 2/4;
+  border-radius: 22.5px;
+  background-color: $color-orange;
+  color: $color-white;
+  border: none;
+  font-size: 20px;
+  line-height: 45px;
+  margin-bottom: 60px;
+  &:hover {
+    background-color: rgb(155, 11, 95);
+  }
+}
