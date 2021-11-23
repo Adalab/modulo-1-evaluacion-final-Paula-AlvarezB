@@ -35,11 +35,33 @@
   font-weight: bold;
   position: absolute;
   top: 284px;
+  @media (min-width: 768px) {
+    top: 40vh;
+
+    font-size: 80px;
+    line-height: 106px;
+  }
+
+  @media (min-width: 1200px) {
+    top: 35vh;
+
+    font-size: 100px;
+    line-height: 132px;
+  }
 }
 .headersubtitle {
   font-family: "Roboto", sans-serif;
   position: absolute;
   top: 404px;
+  font-size: 16px;
+  @media (min-width: 768px) {
+    font-size: 24px;
+    top: 475px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 24px;
+    top: 475px;
+  }
 }
 .whitecircle {
   background-color: $color-white;
@@ -49,4 +71,10 @@
   display: flex;
   justify-content: center;
   transform: translateY(470px);
+  @media (min-width: 768px) {
+    transform: translateY(530px);
+  }
+  @media (min-width: 1200) {
+    transform: translateY(30px);
+  }
 }
