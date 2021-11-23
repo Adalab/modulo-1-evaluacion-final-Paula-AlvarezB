@@ -1,3 +1,16 @@
+@keyframes ascend {
+  from {
+    transform: translateY(200px);
+    transform: rotate(180deg);
+    background-color: $color_orange;
+    color: $color_white;
+    to {
+      transform: translateY(-20px);
+      transform: rotate(0deg);
+    }
+  }
+}
+
 .whitecircle2 {
   background-color: $color-white;
   width: 45px;
@@ -6,6 +19,7 @@
   display: flex;
   justify-content: center;
   transform: translateY(-20px);
+  animation: ascend 2s 1 linear;
 }
 a {
   text-decoration: none;

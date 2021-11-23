@@ -69,15 +69,15 @@
   font-size: 20px;
   line-height: 45px;
   margin-bottom: 60px;
+  transition: background-color 2s linear;
+  &:hover {
+    background-color: #304268;
+  }
   @media (min-width: 768px) {
     grid-column: 2/3;
   }
   @media (min-width: 1200px) {
     margin-left: 30px;
     margin-right: 30px;
-  }
-
-  &:hover {
-    background-color: rgb(155, 11, 95);
   }
 }
