@@ -8,7 +8,7 @@
     margin: 30px 39px 60px 39px;
   }
   @media (min-width: 1200px) {
-    margin: 90px 275px 60px 275px;
+    margin: 60px 275px 60px 275px;
   }
 }
 
@@ -16,12 +16,22 @@
   color: #8ccbea;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  @media (min-width: 1200px) {
+    font-size: 16px;
+  }
 }
 
 .sectiontoptitle {
   font-family: "Roboto Slab", sans-serif;
   font-weight: bold;
   font-size: 24px;
+  @media (min-width: 768px) {
+    font-size: 26px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 32px;
+    line-height: 45px;
+  }
 }
 
 .sectiontoptext {
@@ -30,6 +40,10 @@
   margin-top: 15px;
   margin-bottom: 30px;
   text-transform: none;
+  @media (min-width: 768px) {
+    margin-top: 30px;
+    font-size: 20px;
+  }
 }
 .go {
   font-family: "Roboto Medium", sans-serif;
@@ -41,10 +55,16 @@
   padding: 0px 25px 0px 25px;
   border: 2px solid $color-orange;
   text-transform: capitalize;
-  transition: all 2s linear;
+  transition: color 2s linear, background-color 3s linear, border 1s linear;
   &:hover {
     background-color: $color-orange;
     color: $color-white;
     border: 2px solid $color-grey;
+  }
+  @media (min-width: 768px) {
+    width: 91px;
+  }
+  @media (min-width: 1200px) {
+    width: 160px;
   }
 }

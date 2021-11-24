@@ -6,8 +6,13 @@
   text-align: center;
   font-size: 24px;
   line-height: 30px;
-  padding-top: 30px;
+  padding-top: 60px;
   margin-bottom: 45px;
+  text-transform: capitalize;
+  @media (min-width: 1200px) {
+    font-size: 32px;
+    line-height: 45px;
+  }
 }
 
 .gridreasons {
@@ -21,6 +26,8 @@
   width: 50%;
   grid-column: 2/4;
   margin-bottom: 45px;
+
+  font-size: 24px;
   @media (min-width: 768px) {
     grid-column: 1/4;
     width: 100%;
@@ -58,6 +65,9 @@
 .reasonstext {
   font-family: "Roboto", serif;
   font-weight: normal;
+
+  font-size: 20px;
+  margin-top: 14px;
 }
 
 .morereasons {
@@ -74,10 +84,11 @@
     background-color: #304268;
   }
   @media (min-width: 768px) {
-    grid-column: 2/3;
+    margin-left: 50px;
+    margin-right: 50px;
   }
   @media (min-width: 1200px) {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
